@@ -6,8 +6,6 @@ node {
 }
     mvnhome= tool 'MAVEN_HOME'
     stage ("packaging")
- }   
-stage ("packging")
 {
     sh "'${mvnhome}/bin/mvn' package"
 }
